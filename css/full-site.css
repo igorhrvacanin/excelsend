@@ -1,0 +1,216 @@
+a:hover{
+    color: blue;
+    text-decoration: none;
+}
+.modal-header{
+    background-color:#147ABA;
+    
+}
+.modal-title{
+    color: white;
+    margin-left: 43%;
+}
+.register-btn{
+    background-color: #147ABA;
+    color: white;
+}
+.close{
+    color: white;
+}
+.close:hover{
+    color: whitesmoke;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.dropdown-item:hover{
+    background-color: blue;
+    color: white;
+}
+footer{
+    background-color: #147ABA;
+    width: 100%;
+    height: 950px;
+    margin-top: 50px;
+  }
+  footer button{
+    width: 500px;
+    left: 35%;
+    top: 35%;
+    position: relative;
+    border: none;
+    color: #147ABA;
+    background-color: white;
+    height: 100px;
+    border-radius: 2%;
+    font-size: 1.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    
+  }
+  footer p{
+      
+      margin-bottom: 20px;
+      margin-top: 20px;
+      color: white;
+      font-size: 1.3rem;
+      text-align: center;
+  }
+  footer button:hover{
+    background-color: skyblue;
+    transition: .5s;
+  }
+.modal-body form input{
+    float: right;
+    width: 60%
+}
+.column3 {
+    float: left;
+    width: 50%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.futer-sub{
+    width: 80%;
+    margin: auto;
+}
+.lokacije .kolone{
+      
+      float: left;
+      width: 33%;
+      color: white;
+      
+      
+  }
+  .lokacije h2{
+      float: left;
+      margin-right: 90%;
+      
+      
+  }
+  .lokacije h3{
+      float: left;
+      margin-right: 90%;
+  }
+  #but{
+      margin-bottom: 50px;
+  }
+  .end{
+      width: 100%;
+      
+      margin: auto;
+      /* border-top: 1px solid rgb(255, 255, 255); */
+  }
+  .end a{
+      color: white;
+    }
+.connect{
+    float: left;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.connect h3{
+    color: white;
+}
+.connect img{
+    width: 40px;
+    margin-top: -40px;
+}
+.log a{
+    font-size: 4em;
+}
+.end .strane a:hover{
+    color: gray;
+}
+.redovi{
+    width: 33%;
+    float: left;
+}
+#spacer{
+    content: ('');
+    height: 50px;
+    background-color: white;
+    margin-top: 20px;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    
+}
+#fname{
+    background-image: url(Pictures/630729-200.png) ;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    padding-left:30px;
+}
+#lname{
+    background-image: url(Pictures/630729-200.png) ;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    padding-left:30px;
+}
+#cname{
+    background-image: url(Pictures/unnamed.png) ;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    padding-left:30px;
+}
+#email{
+    background-image: url(Pictures/mail-5.png) ;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    padding-left:30px;
+}
+#tel{
+    background-image: url(Pictures/Mobile-Phone-icon.png) ;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    padding-left:30px;
+}
+#pass{
+    background-image: url(Pictures/lock-24-512.png) ;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    padding-left:30px;
+}
+
+
+
+
+  @media (max-width: 952px){
+    footer button{
+        left: 5%;
+        width: 90%;
+        
+    }
+    .col3{
+        width: 100%;
+    }
+    .container2{
+        margin-top: -90px;
+    }
+    .lokacije .kolone{
+        width: 100%;
+    }
+    .redovi{
+        width: 50%;
+    }
+    footer{
+        height: 1300px;
+    }
+  }
+
+  @media (max-width: 750px){
+      footer{
+          height: 1400px;
+      }
+  }
+  @media (max-width: 600px){
+      footer{
+          height: 1500px;
+      }
+  }

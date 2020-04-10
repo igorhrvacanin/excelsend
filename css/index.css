@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+  }
+nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    padding: 30px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 0 30px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+    
+    
+}
+nav ul{
+    margin-top: 15px;
+    float: left;
+    margin-left: 20%;
+}
+nav h2{
+    color: white;
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin-left: 5rem;
+}
+#headerphoto{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+}
+
+nav{
+    
+    height: 80px;
+    width: 100%;
+  }
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    
+  }
+nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+nav ul li a{
+    color: white;
+    
+    padding: 7px 13px;
+    
+    
+  }
+ 
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    float: right;
+    
+}
+#check{
+    display: none;
+    float: right;
+}
+#spanhead{
+  color: white;
+}
+
+#header-text{
+  color: black;
+  margin-top: 50px;
+  margin-left: 130px;
+  font-size: 2rem;
+  width: 50%;
+  font-weight: bold;
+}
+#sign-up{
+  margin-top: 50px;
+  margin-left: 130px;
+  color: white;
+  background-color: #0176B9;
+  border: none;
+  border-radius: 10%;
+  width: 150px;
+  height: 70px;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+#myvideo{
+  width: 100%;
+  
+}
+#video-div{
+  position: relative;
+  z-index: -100;
+  margin-top: -200px;
+  width: 100%;
+  
+  
+}
+#video-div::before{
+  background: rgba(255, 255, 255, 0.5);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+
+#phone{
+  position: absolute;
+  width: 400px;
+  right: 0;
+  margin-top: -180px;
+}
+.doctor{
+  
+  height: 1200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -100;
+  margin-top: -190px;
+  transform: translate(0, -100px);
+}
+.blue{
+  background-image: url(Pictures/blue-bg.png);
+  height: 1000px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: -390px;
+  
+}
+#laptop{
+  position: absolute;
+  right: 27%;
+  width: 900px;
+}
+.vertical {
+  width: 100%;
+  position: absolute;
+  top: 53%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  
+}
+.vertical h2{
+  color: white;
+  position: relative;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 80px;
+  
+  
+}
+#sign-up:hover{
+  background-color: skyblue;
+  transition: .5s;
+}
+#register:hover{
+  background-color: skyblue;
+  transition: .5s;
+}
+#video{
+  position: relative;
+  margin-left: 25%;
+  margin-top: -350px;
+  width: 900px;
+  height: 400px;
+}
+#register{
+  background-color:#0176B9 ;
+  color: white;
+ 
+  width: 500px;
+  height: 100px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 2%;
+  cursor: pointer;
+  position: relative;
+  width: 75%;
+  margin-left: 15%;
+  
+  
+}
+
+#bottom{
+  width: 100%;
+  position: relative;
+  margin-top: 100px;
+}
+.mess1{
+  
+  margin-top: 100px;
+  margin-bottom: -5px;
+  margin-left: 42%;
+  
+}
+.mess2{
+  margin-left: 42%;
+}
+#messimg{
+  width: 30%;
+}
+#bottom{
+  width: 100%;
+  position: relative;
+}
+
+
+@media (max-width: 1500px){
+    nav ul{ 
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    #header-text{
+      font-size: 1.3rem;;
+    }
+}
+
+@media (max-width: 1300px){
+    .checkbtn{
+      display: block;
+    }
+    #phone{
+      display: none;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #16CEFE;
+      top: 80px;
+      left: -120%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+
+    #check:checked ~ ul{
+      left: -100px;
+    }
+    #video{
+      width: 400px;
+      height: 250px;
+    }
+    #laptop{
+      width: 800px;
+      left: 15%;
+      top:5%
+    }
+  }
+
+
+
+  
+@media (max-width: 952px){
+    label.logo{
+      font-size: 30px;
+      padding-left: 100px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+    #header-text{
+      font-size: 1rem;;
+    }
+    #video{
+      width: 450px;
+      
+      height: 250px;
+      
+    }
+    #laptop{
+      width: 600px;
+      left: 15%;
+      top:5%
+    }
+  }
+  @media (max-width: 800px){
+    #header-text{
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-left: 30px;
+      width: 90%;
+    }
+    .doctor{
+      margin-top: -350px;
+    }
+    #video{
+      width: 400x;
+      height: 250px;
+    }
+    #laptop{
+      width: 500px;
+      left: 15%;
+      top:5%
+    }
+
+    .mess1{
+      display: none;
+    }
+    .mess2{
+      display: none;
+    }
+  }
+  @media (max-width: 600px){
+    #video{
+      
+        width: 350px;
+        height: 200px;
+        
+        margin-left: 20%;
+        
+        
+   
+    }
+    #laptop{
+      width: 400px;
+      left: 10%;
+      top: 10%;
+    }
+  }
