@@ -187,6 +187,10 @@ p{
     #check:checked ~ ul{
       left: -100px;
     }
+    .container img{
+      width: 110%;
+      margin-left: 0;
+    }
   }
 @media (max-width: 952px){
     label.logo{

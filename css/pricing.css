@@ -244,4 +244,29 @@ footer button:hover{
     .cols2 p{
       margin-top: 200px;
     }
+    #phone{
+      width: 75%;
+      left: 10%;
+    }
+    h1{
+      font-size: 3rem;
+      margin-left: 25%;
+    }
+    #respp{
+      margin-top: 10px;
+    }
+    .cols2 p{
+      margin-top: 250px;
+      font-size: 1.2rem;
+    }
+    p{
+      font-size: 1.2rem ;
+    }
+    #pricing{
+      margin-left: 10%;
+    }
+    .price{
+      margin-left: 10%;
+    }
+    
   }

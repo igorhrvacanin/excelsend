@@ -22,10 +22,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: white;
-    
-    
-    
+    color: white;    
 }
 .blue-big:hover{
   background-color: #16CEFE;
@@ -104,6 +101,10 @@ h1{
 }
 .country{
     font-weight: bolder;
+    color: black;
+}
+.info{
+  margin-top: -20px;
 }
 .blue-big{
     background-color: #147ABA;
@@ -157,6 +158,20 @@ form .inputs{
   background-color: rgb(81, 154, 199);
 }
 
+.kolona{
+  float: left;
+  width: 50%;
+  
+}
+.uk{
+  padding-left: 40px;
+}
+.red{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 @media (max-width: 1500px){
     nav ul{ 
         margin-left: 20px;
@@ -190,6 +205,9 @@ form .inputs{
     #check:checked ~ ul{
       left: -100px;
     }
+    #contact-us{
+      width: 120%;
+    }
   }
 @media (max-width: 952px){
     label.logo{
@@ -198,5 +216,11 @@ form .inputs{
     }
     nav ul li a{
       font-size: 16px;
+    }
+    .kolona{
+      width: 100%;
+    }
+    .uk{
+      padding-left: 0;
     }
   }

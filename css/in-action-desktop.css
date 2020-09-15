@@ -232,6 +232,15 @@ footer{
     #check:checked ~ ul{
       left: -100px;
     }
+    .bigbg{
+      height: 250px;
+      margin-bottom: -50px;
+    }
+    .bg{
+      height: 1300px;
+    }
+    
+
     
   }
 @media (max-width: 952px){
@@ -253,26 +262,42 @@ footer{
             width: 90%;
             
         }
+        .blue2{
+          margin-top: 250px;
+        }
+        
   }
 
   @media(max-width: 900px){
     .column{
-        width: 70%;
-        margin: auto;
-        height: 300px;
+      width: 100%;
+      margin: auto;
+      height: 300px;
     }
+    #icons{
+      margin-left: 20px;
+      padding-top: 50px;
+      
+        }
     .second{
-        margin-top: 150px;
+        margin-top: 110px;
+        
     }
     #excel02{
         width: 100%;
     }
+    h1{
+      font-size: 2.5rem;
+      
+    }
+
+    
+  
   }
   @media(max-width: 750px){
     .container iframe{
-        width: 350px;
-        height: 200px;
-        
+        width: 100%;
+        height: 200px;        
         margin-left: 0;
         
         

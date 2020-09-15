@@ -190,6 +190,9 @@ footer{
     #check:checked ~ ul{
       left: -100px;
     }
+    .container .cols{
+      height: 250px;
+    }
   }
 @media (max-width: 952px){
     label.logo{
@@ -204,4 +207,5 @@ footer{
         width: 90%;
         
     }
+    
   }

@@ -126,7 +126,7 @@ margin-top: 50px;
     height: 1200px;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -350px ;
+    margin-top: -375px ;
     
     position: absolute; 
 }
@@ -212,6 +212,13 @@ footer{
       text-align: center;
       transition: all .5s;
     }
+    #excel02{
+        margin-top: 100px;
+    }
+    .blue2{
+      margin-top: 250px;
+    }
+    
     nav ul li{
       display: block;
       margin: 50px 0;
@@ -224,6 +231,14 @@ footer{
     #check:checked ~ ul{
       left: -100px;
     }
+    #head{
+      height: 250px;
+    }
+    .bg{
+      height: 1300px;
+      
+    }
+
     
   }
 @media (max-width: 952px){
@@ -249,24 +264,30 @@ footer{
 
   @media(max-width: 900px){
     .column{
-        width: 70%;
+        width: 100%;
         margin: auto;
         height: 300px;
     }
+    #icons{
+      margin-left: 20px;
+      padding-top: 50px;
+        }
     .second{
-        margin-top: 150px;
+        margin-top: 70px;
+        
     }
     #excel02{
         width: 100%;
+        
+    }
+    h1{
+      font-size: 2.5rem;
     }
   }
   @media(max-width: 750px){
     .container iframe{
-        width: 350px;
-        height: 200px;
-        
+        width: 100%;
         margin-left: 0;
-        
-        
+        height: 200px;       
     }
   }
